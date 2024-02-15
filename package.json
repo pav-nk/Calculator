@@ -1,0 +1,18 @@
+{
+    "name": "calculator",
+    "version": "0.1.0",
+    "description": "The Odin Project: Foundations Course",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pav-nk/calculator"
+    },
+    "main": "",
+    "devDependencies": {
+        "htmlhint": "^1.1.4",
+        "stylelint": "^15.2.0",
+        "stylelint-config-standard": "^30.0.1",
+        "surge": "^0.23.1"
+    },
+    "author": "pav-nk",
+    "license": "ISC"
+}

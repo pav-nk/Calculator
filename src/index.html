@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./icons/calculator.svg">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1 class="title visually-hidden">Calculator</h1>
+    <div class="wrapper">
+        <div class="calculator">
+            <div class="display">
+                <span class="memory-window" id="memory-field"></span>
+                <span class="input-window" id="input-field">0</span>
+            </div>
+            <div class="controls">
+                <button id="clear-button" class="button button--clear">CLEAR</button>
+                <button id="delete-button" class="button button--del">DEL</button>
+                <button class="button button--divide" data-operator="/">/</button>
+                <button class="button button--num1" data-number="1">1</button>
+                <button class="button button--num2" data-number="2">2</button>
+                <button class="button button--num3" data-number="3">3</button>
+                <button class="button button--multiply" data-operator="*">*</button>
+                <button class="button button--num4" data-number="4">4</button>
+                <button class="button button--num5" data-number="5">5</button>
+                <button class="button button--num6" data-number="6">6</button>
+                <button class="button button--add" data-operator="+">+</button>
+                <button class="button button--num7" data-number="7">7</button>
+                <button class="button button--num8" data-number="8">8</button>
+                <button class="button button--num9" data-number="9">9</button>
+                <button class="button button--subtract" data-operator="-">-</button>
+                <button id="dot-button" class="button button--dot" disabled>.</button>
+                <button class="button button--num0" data-number="0">0</button>
+                <button id="equally-button" class="button button--equally">=</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <span>Copyright © 2024</span><a class="link--github" href="https://github.com/pav-nk">pav_nk</a>
+        </footer>
+    </div>
+</body>
+
+</html>
